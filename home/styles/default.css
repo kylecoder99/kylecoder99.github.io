@@ -1,0 +1,42 @@
+:root {
+    --pitch-black: #141204ff;
+    --dark-khaki: #262a10ff;
+    --dark-khaki-2: #54442bff;
+    --cinnamon-wood: #a9714bff;
+    --toasted-almond: #e8985eff;
+}
+
+body {
+  background-color: var(--dark-khaki);
+  color: var(--toasted-almond);
+  font-family: "Libre Baskerville", sans-serif;
+}
+
+header, main, footer{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+a {
+  color: var(--blue-slate);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1{
+    color: var(--cinnamon-wood);
+    font-family: "Playfair Display", serif;
+}
+
+h2{
+    color: var(--cinnamon-wood);
+    font-family: "Playfair Display", serif;
+}
+
+footer {
+  background-color: var(--dark-khaki-2);
+  color: var(--toasted-almond);
+}
