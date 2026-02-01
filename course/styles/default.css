@@ -19,7 +19,7 @@ header, main, footer{
 }
 
 a {
-  color: var(--blue-slate);
+  color: var(--ghost-white);
   text-decoration: none;
 }
 
@@ -28,7 +28,7 @@ a:hover {
 }
 
 h1{
-    color: var(--blue-slate);
+    color: var(--ghost-white);
     font-family: "Work Sans", sans-serif;
 }
 
