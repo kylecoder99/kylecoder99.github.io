@@ -1,0 +1,46 @@
+:root {
+    --shadow-grey: #231f20ff;
+    --tomato-jam: #bb4430ff;
+    --tropical-teal: #7ebdc2;
+    --vanilla-custard: #f3dfa2ff;
+    --linen: #efe6ddff;
+}
+
+body {
+  background-color: var(--linen);
+  color: var(--shadow-grey);
+  font-family: "Montserrat", sans-serif;
+}
+
+header, main, footer{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+a {
+  color: var(--tropical-teal);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1{
+    color: var(--tomato-jam);
+    font-family: "Montserrat", sans-serif;
+}
+
+h2{
+    color: var(--tomato-jam);
+    font-family: "Montserrat", sans-serif;
+}
+
+footer {
+  background-color: var(--shadow-grey);
+  color: var(--tropical-teal);
+}
+
+ul {
+  list-style-type: square; 
+}
