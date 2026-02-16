@@ -36,6 +36,11 @@ h2{
     font-family: "Montserrat", sans-serif;
 }
 
+h3{
+    color: var(--tropical-teal);
+    font-family: "Montserrat", sans-serif;
+}
+
 footer {
   background-color: var(--tropical-teal);
   color: var(--shadow-grey);
