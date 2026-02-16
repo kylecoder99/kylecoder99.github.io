@@ -27,18 +27,18 @@ a:hover {
 }
 
 h1{
-    color: var(--tomato-jam);
+    color: var(--tropical-teal);
     font-family: "Montserrat", sans-serif;
 }
 
 h2{
-    color: var(--tomato-jam);
+    color: var(--tropical-teal);
     font-family: "Montserrat", sans-serif;
 }
 
 footer {
   background-color: var(--shadow-grey);
-  color: var(--tropical-teal);
+  color: var(--tomato-jam);
 }
 
 ul {
