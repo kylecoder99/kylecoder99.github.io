@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introduction Form</title>
+  <link rel="stylesheet" href="styles/default.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Playfair+Display&display=swap" rel="stylesheet">
+  <script src="scripts/include.js" defer></script>
+  <script src="scripts/intro_form.js" defer></script>
+</head>
+
+<body>
+  <div data-include="components/header.html"></div>
+
+  <main>
+    <h2>Introduction Form</h2>
+    <h3>Please submit the form below.</h3>
+
+    <form id="introForm">
+
+      <label>First Name:</label>
+      <input type="text" id="firstName" value="Kyle" placeholder="Enter your first name" required>
+
+      <label>Middle Name:</label>
+      <input type="text" id="middleName" placeholder="Enter middle name">
+
+      <label>Nickname:</label>
+      <input type="text" id="nickname" placeholder="Preferred name">
+
+      <label>Last Name:</label>
+      <input type="text" id="lastName" value="Beland" placeholder="Enter your last name" required>
+
+      <label>Acknowledgement:</label>
+      <input type="text" id="ack" value="I understand this is my work." required>
+
+      <label>Date:</label>
+      <input type="date" id="date" required>
+
+      <label>Mascot Adjective:</label>
+      <input type="text" id="adj" value="Killer" required>
+
+      <label>Mascot Animal:</label>
+      <input type="text" id="animal" value="Bee" required>
+
+      <label>Divider:</label>
+      <input type="text" id="divider" value="~" required>
+
+      <label>Picture:</label>
+      <input type="file" id="image" accept="image/*">
+
+      <label>Picture Caption:</label>
+      <input type="text" id="caption" placeholder="Describe your image" required>
+
+      <label>Personal Statement:</label>
+      <textarea id="personal" placeholder="Write about yourself" required></textarea>
+
+      <label>Personal Background:</label>
+      <textarea id="pb" required></textarea>
+
+      <label>Professional Background:</label>
+      <textarea id="prof" required></textarea>
+
+      <label>Academic Background:</label>
+      <textarea id="acad" required></textarea>
+
+      <label>Web Dev Background:</label>
+      <textarea id="web" required></textarea>
+
+      <label>Platform:</label>
+      <input type="text" id="platform" required>
+
+      <label>Courses:</label>
+      <div id="courses">
+        <div>
+          <input type="text" placeholder="Dept" required>
+          <input type="text" placeholder="Number" required>
+          <input type="text" placeholder="Course Name" required>
+          <input type="text" placeholder="Reason" required>
+          <button type="button" onclick="this.parentElement.remove()">Delete</button>
+        </div>
+      </div>
+
+      <button type="button" onclick="addCourse()">Add Course</button>
+
+      <label>Quote:</label>
+      <input type="text" id="quote" required>
+
+      <label>Quote Author:</label>
+      <input type="text" id="author" required>
+
+      <label>Funny Thing:</label>
+      <input type="text" id="funny" placeholder="Optional">
+
+      <label>Something to Share:</label>
+      <input type="text" id="share" placeholder="Optional">
+
+      <label>LinkedIn:</label>
+      <input type="url" value="https://www.linkedin.com/in/kyle-beland-320b92333/" required>
+
+      <label>GitHub:</label>
+      <input type="url" value="https://github.com/kylecoder99" required>
+
+      <label>CLT Web:</label>
+      <input type="url" value="https://webpages.charlotte.edu/kbeland/" required>
+
+      <label>GitHub.io:</label>
+      <input type="url" value="https://kylecoder99.github.io/" required>
+
+      <label>freeCodeCamp:</label>
+      <input type="url" value="https://www.freecodecamp.org/kylebeland" required>
+
+      <br><br>
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+      <button type="button" onclick="clearForm()">Clear</button>
+
+    </form>
+  </main>
+
+  <div data-include="components/footer.html"></div>
+</body>
+</html>
